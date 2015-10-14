@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estoque.Site", "Estoque.Site\Estoque.Site.csproj", "{60916ACC-D5E6-4B2C-99D5-748BA1280548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estoque.DAL", "Estoque.DAL\Estoque.DAL.csproj", "{5304D318-49EC-455B-AFFE-1B497032E9F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estoque.Util", "Estoque.Util\Estoque.Util.csproj", "{0398FEEA-E61A-4711-8986-CFB5B30B1228}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60916ACC-D5E6-4B2C-99D5-748BA1280548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60916ACC-D5E6-4B2C-99D5-748BA1280548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60916ACC-D5E6-4B2C-99D5-748BA1280548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60916ACC-D5E6-4B2C-99D5-748BA1280548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5304D318-49EC-455B-AFFE-1B497032E9F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5304D318-49EC-455B-AFFE-1B497032E9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5304D318-49EC-455B-AFFE-1B497032E9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5304D318-49EC-455B-AFFE-1B497032E9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0398FEEA-E61A-4711-8986-CFB5B30B1228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0398FEEA-E61A-4711-8986-CFB5B30B1228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0398FEEA-E61A-4711-8986-CFB5B30B1228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0398FEEA-E61A-4711-8986-CFB5B30B1228}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -13,6 +13,7 @@ namespace Estoque.DAL.Entity
         public decimal Preco { get; set; }
         public int Quantidade { get; set; }
         public string Descricao { get; set; }
-        public Fornecedor Fornecedor { get; set; } 
+        public Fornecedor Fornecedor { get; set; }
+        public int IdFornecedor { get; set; }
     }
 }

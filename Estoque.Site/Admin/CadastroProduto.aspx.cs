@@ -35,10 +35,8 @@ namespace Estoque.Site.Admin
             {
 
                 Produto p = new Produto();
-                Fornecedor f = new Fornecedor();
-                f.IdFornecedor = Convert.ToInt32(DropDownFornecedor.SelectedValue);
-                f.Nome = Convert.ToString(DropDownFornecedor.SelectedItem);
-                p.Fornecedor = f;
+
+                p.IdFornecedor = Convert.ToInt32(DropDownFornecedor.SelectedValue);
                 p.Nome = txtNome.Text;
                 p.Preco = Convert.ToDecimal(txtPreco.Text);
                 p.Quantidade = Convert.ToInt32(txtQuantidade.Text);

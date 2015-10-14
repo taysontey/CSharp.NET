@@ -16,7 +16,7 @@ namespace Estoque.DAL.Persistence
             {
                 OpenConnection();
                 Cmd = new SqlCommand("INSERT INTO Produto(IdFornec, Nome, Preco, Quantidade, Descricao) VALUES(@v1, @v2, @v3, @v4, @v5)", Con);
-                Cmd.Parameters.AddWithValue("@v1", p.Fornecedor.IdFornecedor);
+                Cmd.Parameters.AddWithValue("@v1", p.IdFornecedor);
                 Cmd.Parameters.AddWithValue("@v2", p.Nome);
                 Cmd.Parameters.AddWithValue("@v3", p.Preco);
                 Cmd.Parameters.AddWithValue("@v4", p.Quantidade);

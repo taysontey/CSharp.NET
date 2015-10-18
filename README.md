@@ -1,6 +1,6 @@
 # CSharp.NET
 
-Projeto Estoque de Produtos com Login: C#, ASP.NET, WebForms, SQLClient.
+Projeto Estoque de Produtos com Login: C#, SQLClient, ASP.NET-WebForms.
 
 
 

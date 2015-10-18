@@ -35,8 +35,8 @@
                                 CssClass="btn btn-success btn-block" OnClick="btnLogin_Click" />
                             <br />
                             <asp:CheckBox ID="checkLogin" runat="server" />
-                            Mantenha-me conectado.                            
-                            <a href="Pages/CadastroFuncionario.aspx" class="text-center new-account" style="float: right;">Cadastrar Conta</a>
+                            Manter conectado.                            
+                            <a href="Pages/CadastroFuncionario.aspx" class="text-center new-account" style="float: right;">Cadastrar Funcionário</a>
                         </div>
                     </div>
                     <asp:Label ID="lblMensagem" runat="server" />

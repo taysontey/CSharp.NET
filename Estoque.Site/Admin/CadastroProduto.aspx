@@ -39,7 +39,8 @@
                             <br />
                             <label>Selecione o Fornecedor:</label>
                             <br />
-                            <asp:DropDownList ID="DropDownFornecedor" runat="server"></asp:DropDownList>
+                            <asp:DropDownList ID="DropDownFornecedor" runat="server">
+                            </asp:DropDownList>
                         </div>
                         <div class="panel-footer">
                             <asp:Button ID="btnCadastro" runat="server"

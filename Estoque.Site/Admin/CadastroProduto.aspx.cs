@@ -16,6 +16,7 @@ namespace Estoque.Site.Admin
             if (!Page.IsPostBack)
             {
                 dropDownList();
+                DropDownFornecedor.Items.Insert(0, new ListItem("Selecione o Fornecedor", ""));
                 DropDownFornecedor.SelectedIndex = 0;
             }
         }
@@ -52,6 +53,7 @@ namespace Estoque.Site.Admin
                 txtPreco.Text = string.Empty;
                 txtQuantidade.Text = string.Empty;
                 txtDescricao.Text = string.Empty;
+                DropDownFornecedor.SelectedIndex = 0;
             }
             catch (Exception ex)
             {

@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
-using Estoque.DAL.Entity;
+using Estoque.Entity.Entities;
 using Estoque.Util.Security;
+using Estoque.DAL.DataSource;
 
 namespace Estoque.DAL.Persistence
 {

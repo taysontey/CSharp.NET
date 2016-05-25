@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Estoque.DAL.Entity
+namespace Estoque.Entity.Entities
 {
     public class Fornecedor
     {

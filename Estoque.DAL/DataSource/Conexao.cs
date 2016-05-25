@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Configuration;
 
-namespace Estoque.DAL.Persistence
+namespace Estoque.DAL.DataSource
 {
     public class Conexao
     {

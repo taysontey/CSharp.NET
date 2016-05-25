@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using Estoque.DAL.Entity;
+using Estoque.Entity.Entities;
 
 namespace Estoque.Site.Shared
 {

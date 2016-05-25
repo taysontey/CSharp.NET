@@ -165,6 +165,10 @@
       <Project>{5304d318-49ec-455b-affe-1b497032e9f1}</Project>
       <Name>Estoque.DAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Estoque.Entity\Estoque.Entity.csproj">
+      <Project>{8ff4151d-6d56-4464-be86-6896be66ceb4}</Project>
+      <Name>Estoque.Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

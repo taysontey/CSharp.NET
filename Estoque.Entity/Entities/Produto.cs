@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Estoque.DAL.Entity
+namespace Estoque.Entity.Entities
 {
     public class Produto
     {
@@ -12,8 +12,13 @@ namespace Estoque.DAL.Entity
         public string Nome { get; set; }
         public decimal Preco { get; set; }
         public int Quantidade { get; set; }
-        public string Descricao { get; set; }
-        public Fornecedor Fornecedor { get; set; }
+        public string Descricao { get; set; }       
         public int IdFornecedor { get; set; }
+
+        #region Relacionamentos
+
+        public Fornecedor Fornecedor { get; set; }
+
+        #endregion
     }
 }

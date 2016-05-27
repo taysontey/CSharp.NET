@@ -64,23 +64,22 @@ namespace Estoque.DAL.Persistence
             try
             {
                 OpenConnection();
-                Cmd = new SqlCommand("SELECT * FROM Produto p, Fornecedor f WHERE p.IdFornec = f.IdFornecedor ", Con);
+                Cmd = new SqlCommand("SELECT p.IdProduto, p.Nome, p.Preco, p.Quantidade, p.Descricao, f.Nome as 'Fornecedor' FROM Produto as p INNER JOIN Fornecedor as f on p.IdFornec = f.IdFornecedor", Con);
                 Dr = Cmd.ExecuteReader();
 
                 List<Produto> lista = new List<Produto>();
 
                 while (Dr.Read())
                 {
-                    Produto p = new Produto();
-                    Fornecedor f = new Fornecedor();
-                    f.IdFornecedor = Convert.ToInt32(Dr["IdFornec"]);
-                    f.Nome = Convert.ToString(Dr.GetString(7));
+                    Produto p = new Produto();                
                     p.IdProduto = Convert.ToInt32(Dr["IdProduto"]);
-                    p.Fornecedor = f;
                     p.Nome = Convert.ToString(Dr["Nome"]);
                     p.Preco = Convert.ToDecimal(Dr["Preco"]);
                     p.Quantidade = Convert.ToInt32(Dr["Quantidade"]);
                     p.Descricao = Convert.ToString(Dr["Descricao"]);
+
+                    p.Fornecedor = new Fornecedor();
+                    p.Fornecedor.Nome = Convert.ToString(Dr["Fornecedor"]);
 
                     lista.Add(p);
                 }
